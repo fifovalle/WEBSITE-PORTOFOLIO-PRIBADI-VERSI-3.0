@@ -1,3 +1,4 @@
+// MEMASUKAN MODUL DARI REACT
 import bergaya from "styled-components";
 
 export const KontakFormulir = bergaya.form`

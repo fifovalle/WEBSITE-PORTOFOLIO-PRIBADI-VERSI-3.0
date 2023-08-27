@@ -1,6 +1,7 @@
+// MEMASUKAN MODUL DARI REACT
 import bergaya from "styled-components";
 
-export const WadahPamerkanPartikel = bergaya.div`
+export const WadahPartikel = bergaya.div`
     position: relative;
 
     @media (max-width: ${({ theme }) => theme.titikhenti.seluler}) {
@@ -8,7 +9,7 @@ export const WadahPamerkanPartikel = bergaya.div`
     }
 `;
 
-export const PamerkanFoto = bergaya.div`
+export const WadahFotoProfil = bergaya.div`
     border: 1px solid white;
     width: max-content;
     padding-top: 2rem;

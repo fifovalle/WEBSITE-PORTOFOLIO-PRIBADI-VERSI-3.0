@@ -1,3 +1,4 @@
+// MEMASUKAN MODUL DARI REACT
 import bergaya from "styled-components";
 
 export const WadahNavigasi = bergaya.div`
@@ -35,7 +36,7 @@ export const WadahDaftarNavigasi = bergaya.div`
     z-index: 1;
 `;
 
-export const DaftarBarang = bergaya.a`
+export const DaftarTeks = bergaya.a`
     color: #fff;
     font-size: 2.5rem;
     margin-top: 3rem;

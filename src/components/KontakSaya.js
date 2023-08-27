@@ -14,10 +14,10 @@ import {
   KontakFormulir,
   LabelFormulir,
   MasukanFormulir,
-} from "../styles/Kaki.styled";
+} from "../styles/KontakSaya.styled";
 import { PariasiHilangKeBawah } from "../utils/Pariasi";
 
-const Kaki = () => {
+const KontakSaya = () => {
   return (
     <LapisanWadah id="Kontak" atas="10%" bawah="10%">
       <Tajuk
@@ -76,4 +76,4 @@ const Kaki = () => {
   );
 };
 
-export default Kaki;
+export default KontakSaya;

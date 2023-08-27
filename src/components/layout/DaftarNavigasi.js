@@ -1,19 +1,20 @@
+// MEMASUKAN MODUL DARI REACT
 import React from "react";
-import { motion } from "framer-motion";
-
-// IMPORT DARI FILE MENYELURUH
-import { LapisanWadah, MelenturkanWadah } from "../../styles/Menyeluruh.styled";
-
+// MENGMASUKAN MODUL IKON DARI REACT
 import { AiOutlineClose } from "react-icons/ai";
+// MEMASUKAN MODUL DARI FREMER MOTION
+import { motion } from "framer-motion";
+// MENGMASUKAN MODUL KOMPONEN YANG SAYA BUAT
+import { LapisanWadah, MelenturkanWadah } from "../../styles/Menyeluruh.styled";
+import { NavigasiTautan } from "../../utils/Data";
+import { PariasiGeserKeKiri } from "../../utils/Pariasi";
 import {
-  DaftarBarang,
+  DaftarTeks,
   DaftarIkon,
   WadahDaftarNavigasi,
 } from "../../styles/NavigasiBar.styled";
-import { NavigasiTautan } from "../../utils/Data";
-import { PariasiGeserKeKiri } from "../../utils/Pariasi";
 
-const DaftarNavigasi = ({ setBukaDaftar }) => {
+const DaftarNavigasi = ({ aturBukaDaftar }) => {
   return (
     <WadahDaftarNavigasi
       as={motion.div}
@@ -26,7 +27,7 @@ const DaftarNavigasi = ({ setBukaDaftar }) => {
       <LapisanWadah kiri="5%" kanan="5%" atas="2rem">
         <MelenturkanWadah benarkan="flex-end" melenturkanResponsif>
           <DaftarIkon
-            onClick={() => setBukaDaftar(false)}
+            onClick={() => aturBukaDaftar(false)}
             as={motion.a}
             whileHover={{ scale: 1.2 }}
           >
@@ -39,17 +40,17 @@ const DaftarNavigasi = ({ setBukaDaftar }) => {
       <LapisanWadah atas="8%">
         <MelenturkanWadah arah="column" luruskan="center" melenturkanResponsif>
           {NavigasiTautan.map((tautan) => (
-            <DaftarBarang
+            <DaftarTeks
               as={motion.a}
               whileHover={{
                 scale: 1.2,
               }}
               key={tautan.id}
               href={`#${tautan.tautan}`}
-              onClick={() => setBukaDaftar(false)}
+              onClick={() => aturBukaDaftar(false)}
             >
               {tautan.nama}
-            </DaftarBarang>
+            </DaftarTeks>
           ))}
         </MelenturkanWadah>
       </LapisanWadah>

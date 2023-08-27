@@ -14,17 +14,17 @@ import {
 } from "../styles/Menyeluruh.styled";
 // MENGMASUKAN MODUL DARI FILE
 import {
-  PamerkanFoto,
+  WadahFotoProfil,
   Partikel,
-  WadahPamerkanPartikel,
-} from "../styles/Memamerkan.styled";
+  WadahPartikel,
+} from "../styles/BerandaSaya.styled";
 import { SosialTautan } from "../utils/Data";
 // MENGMASUKAN FILE GAMBAR YANG SAYA MILIKI
-import PamerkanGambar from "../assets/1.png";
-import PamerkanPartikel from "../assets/partikel.png";
+import FotoProfil from "../assets/1.png";
+import GambarPartikel from "../assets/partikel.png";
 import { PariasiHilangKeKanan, PariasiHilangKeKiri } from "../utils/Pariasi";
 
-const Pamerkan = () => {
+const BerandaSaya = () => {
   return (
     <LapisanWadah
       id="Beranda"
@@ -97,10 +97,10 @@ const Pamerkan = () => {
           initial="hilang"
           whileInView="ada"
         >
-          <WadahPamerkanPartikel>
-            <PamerkanFoto>
-              <img src={PamerkanGambar} alt="pamerkan gambar" />
-            </PamerkanFoto>
+          <WadahPartikel>
+            <WadahFotoProfil>
+              <img src={FotoProfil} alt="pamerkan gambar" />
+            </WadahFotoProfil>
 
             <Partikel
               as={motion.img}
@@ -110,7 +110,7 @@ const Pamerkan = () => {
                 scale: [1, 0.5, 1],
               }}
               transition={{ duration: 20, repeat: Infinity }}
-              src={PamerkanPartikel}
+              src={GambarPartikel}
               alt="pamerkan partikel"
               atas="-80px"
               kiri="20px"
@@ -124,7 +124,7 @@ const Pamerkan = () => {
                 scale: [1, 0.8, 1],
               }}
               transition={{ duration: 18, repeat: Infinity }}
-              src={PamerkanPartikel}
+              src={GambarPartikel}
               alt="pamerkan partikel"
               atas="50px"
               kanan="-70px"
@@ -138,17 +138,17 @@ const Pamerkan = () => {
                 scale: [1, 0.9, 1],
               }}
               transition={{ duration: 15, repeat: Infinity }}
-              src={PamerkanPartikel}
+              src={GambarPartikel}
               alt="pamerkan partikel"
               bawah="10px"
               kiri="-70px"
               rotasi="50deg"
             />
-          </WadahPamerkanPartikel>
+          </WadahPartikel>
         </MelenturkanWadah>
       </MelenturkanWadah>
     </LapisanWadah>
   );
 };
 
-export default Pamerkan;
+export default BerandaSaya;

@@ -6,10 +6,10 @@ import { tema } from "./utils/Tema";
 import { LatarBelakang, Wadah, GambarCahaya } from "./styles/Menyeluruh.styled";
 // MENGMASUKAN MODUL KOMPONEN YANG SAYA BUAT
 import NavigasiBar from "./components/NavigasiBar";
-import Pamerkan from "./components/Pamerkan";
+import BerandaSaya from "./components/BerandaSaya";
 import KeahlianSaya from "./components/KeahlianSaya";
 import ProyekSaya from "./components/ProyekSaya";
-import Kaki from "./components/Kaki";
+import KontakSaya from "./components/KontakSaya";
 // MENGMASUKAN FILE GAMBAR YANG SAYA MILIKI
 import CahayaAtas from "./assets/atas.png";
 import CahayaKanan from "./assets/kanan.png";
@@ -21,10 +21,10 @@ function Aplikasi() {
       <LatarBelakang>
         <NavigasiBar />
         <Wadah>
-          <Pamerkan />
+          <BerandaSaya />
           <KeahlianSaya />
           <ProyekSaya />
-          <Kaki />
+          <KontakSaya />
         </Wadah>
         <GambarCahaya src={CahayaAtas} alt="Gambar Atas" atas="0" />
         <GambarCahaya src={CahayaKiri} alt="Gambar Kiri" atas="0" kiri="0" />

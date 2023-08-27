@@ -17,20 +17,18 @@ import { tema } from "../utils/Tema";
 import DaftarNavigasi from "./layout/DaftarNavigasi";
 
 const NavigasiBar = () => {
-  const [bukaDaftar, setBukaDaftar] = useState(false);
-  const [lengket, setLengket] = useState(false);
-
+  const [bukaDaftar, aturBukaDaftar] = useState(false);
+  const [navTetap, aturNavTetap] = useState(false);
   useEffect(() => {
     // MEMBUAT FUNGSI KETIKA DI SCROLL
     const diGulir = () => {
-      window.pageYOffset > 50 ? setLengket(true) : setLengket(false);
+      window.pageYOffset > 50 ? aturNavTetap(true) : aturNavTetap(false);
     };
     window.addEventListener("scroll", diGulir);
     return () => window.removeEventListener("scroll", diGulir);
   }, []);
-
   return (
-    <WadahNavigasi bgwarna={lengket ? tema.warna.primer : "transparent"}>
+    <WadahNavigasi bgwarna={navTetap ? tema.warna.primer : "transparent"}>
       <LapisanWadah
         atas="1.2rem"
         bawah="1.2rem"
@@ -51,7 +49,7 @@ const NavigasiBar = () => {
                 scale: 1.2,
               }}
               onClick={() => {
-                setBukaDaftar(true);
+                aturBukaDaftar(true);
               }}
             >
               <GiHamburgerMenu />
@@ -59,11 +57,10 @@ const NavigasiBar = () => {
           </MelenturkanWadah>
         </Wadah>
         <AnimatePresence>
-          {bukaDaftar && <DaftarNavigasi setBukaDaftar={setBukaDaftar} />}
+          {bukaDaftar && <DaftarNavigasi aturBukaDaftar={aturBukaDaftar} />}
         </AnimatePresence>
       </LapisanWadah>
     </WadahNavigasi>
   );
 };
-
 export default NavigasiBar;
