@@ -17,6 +17,6 @@ export const tema = {
   },
   titikhenti: {
     seluler: "768px",
-    komputer: "1024px",
+    komputer: "1153px",
   },
 };
