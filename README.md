@@ -1,8 +1,8 @@
 **Portofolio Versi 3.0 - README**
-![Proyek3](https://github.com/fifovalle/PORTOFOLIO-SEDERHANA-VERSI-3.0/assets/90078068/5977417c-dba6-4093-943d-e03a12a26e20)
-![Screenshot 2023-08-26 215254](https://github.com/fifovalle/PORTOFOLIO-SEDERHANA-VERSI-3.0/assets/90078068/0f00cf40-19c3-4c2f-b016-3a5c52588347)
-![Screenshot 2023-08-26 215309](https://github.com/fifovalle/PORTOFOLIO-SEDERHANA-VERSI-3.0/assets/90078068/843ccbcc-a850-4af6-aa55-1af2a78fa743)
-![Screenshot 2023-08-26 215318](https://github.com/fifovalle/PORTOFOLIO-SEDERHANA-VERSI-3.0/assets/90078068/981a1512-35c7-4eb8-b537-aa9165e0e91e)
+![Screenshot 2023-08-27 094529](https://github.com/fifovalle/PORTOFOLIO-SEDERHANA-VERSI-3.0/assets/90078068/59987b22-7010-4785-b033-f332b3f16255)
+![Screenshot 2023-08-27 094540](https://github.com/fifovalle/PORTOFOLIO-SEDERHANA-VERSI-3.0/assets/90078068/709fc0a9-e83f-45e2-a093-2dece8ec50a0)
+![Screenshot 2023-08-27 094553](https://github.com/fifovalle/PORTOFOLIO-SEDERHANA-VERSI-3.0/assets/90078068/1b10c203-f42b-4694-8d30-174d4876ee33)
+![Screenshot 2023-08-27 094600](https://github.com/fifovalle/PORTOFOLIO-SEDERHANA-VERSI-3.0/assets/90078068/e06b3c77-5380-47c6-9447-e5951a2bdebd)
 
 Selamat datang di Portofolio Versi 3.0 saya di GitHub! 🚀
 
