@@ -1,22 +1,20 @@
+// MEMASUKAN MODUL DARI REACT
 import React from "react";
+// MEMASUKAN MODUL DARI FRAMER MOTION
 import { motion } from "framer-motion";
-
-// IMPORT DARI FILE MENYELURUH
+// MENGMASUKAN MODUL PENGHIAS YANG SAYA BUAT
 import {
   LapisanWadah,
   MelenturkanWadah,
   Tajuk,
-  Teks,
   TeksBiru,
   Tombol,
-  WadahIkon,
 } from "../styles/Menyeluruh.styled";
 import {
   KontakFormulir,
   LabelFormulir,
   MasukanFormulir,
 } from "../styles/Kaki.styled";
-
 import { PariasiHilangKeBawah } from "../utils/Pariasi";
 
 const Kaki = () => {

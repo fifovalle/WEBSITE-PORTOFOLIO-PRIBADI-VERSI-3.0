@@ -1,17 +1,19 @@
+// MEMASUKAN MODUL DARI REACT
 import React, { useEffect, useState } from "react";
+// MENGMASUKAN MODUL IKON DARI REACT
+import { GiHamburgerMenu } from "react-icons/gi";
+import { DaftarIkon, Logo, WadahNavigasi } from "../styles/NavigasiBar.styled";
+// MEMASUKAN MODUL DARI FRAMER MOTION
 import { motion, AnimatePresence } from "framer-motion";
-
-// IMPORT DARI FILE MENYELURUH
+// MENGMASUKAN MODUL PENGHIAS YANG SAYA BUAT
 import {
   LapisanWadah,
   MelenturkanWadah,
   TeksBiru,
   Wadah,
 } from "../styles/Menyeluruh.styled";
-
-import { GiHamburgerMenu } from "react-icons/gi";
 import { tema } from "../utils/Tema";
-import { DaftarIkon, Logo, WadahNavigasi } from "../styles/NavigasiBar.styled";
+// MENGMASUKAN MODUL LAYOUT YANG SAYA BUAT
 import DaftarNavigasi from "./layout/DaftarNavigasi";
 
 const NavigasiBar = () => {

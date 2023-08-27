@@ -16,8 +16,6 @@ Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan perangkat 
 - **Proyek Tambahan:** Lihat proyek sampingan yang juga menarik perhatian.
 - **Kontak:** Hubungi saya untuk kolaborasi, diskusi, atau pertanyaan.
 
-## 🚀 Proyek Utama
-
 ## 🛠️ Keterampilan
 
 - Bahasa Pemrograman: JavaScript.

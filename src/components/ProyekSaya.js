@@ -1,19 +1,12 @@
+// MEMASUKAN MODUL DARI REACT
 import React from "react";
 import { motion } from "framer-motion";
-
-// IMPORT DARI FILE MENYELURUH
-import {
-  LapisanWadah,
-  MelenturkanWadah,
-  Tajuk,
-  Teks,
-  TeksBiru,
-  WadahIkon,
-} from "../styles/Menyeluruh.styled";
+// MENGMASUKAN MODUL PENGHIAS YANG SAYA BUAT
+import { LapisanWadah, Tajuk, TeksBiru } from "../styles/Menyeluruh.styled";
 import { DetailProyek } from "../utils/Data";
-import Proyek from "./layout/Proyek";
-
 import { PariasiHilangKeAtas } from "../utils/Pariasi";
+// MENGMASUKAN MODUL LAYOUT YANG SAYA BUAT
+import Proyek from "./layout/Proyek";
 
 const ProyekSaya = () => {
   return (

@@ -1,6 +1,7 @@
+// MEMASUKAN MODUL DARI REACT
 import bergaya from "styled-components";
 
-export const TubuhUtama = bergaya.div`
+export const LatarBelakang = bergaya.div`
   background-color: ${({ theme }) => theme.warna.primer};
 `;
 
@@ -157,7 +158,7 @@ export const Tombol = bergaya.a`
   }
 `;
 
-export const GambarHilang = bergaya.img`
+export const GambarCahaya = bergaya.img`
   position: absolute;
   top: ${({ atas }) => atas};
   bottom: ${({ bawah }) => bawah};

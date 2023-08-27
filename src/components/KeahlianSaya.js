@@ -1,7 +1,8 @@
+// MEMASUKAN MODUL DARI REACT
 import React from "react";
+// MEMASUKAN MODUL DARI FRAMER MOTIOn
 import { motion } from "framer-motion";
-
-// IMPOR DARI FILE MENYELURUH
+// MENGMASUKAN MODUL PENGHIAS YANG SAYA BUAT
 import {
   LapisanWadah,
   MelenturkanWadah,
@@ -10,11 +11,7 @@ import {
   TeksBiru,
   WadahIkon,
 } from "../styles/Menyeluruh.styled";
-
-// IMPOR DARI FILE KEAHLIAN SAYA
 import { KartuKeahlian, WadahKeahlian } from "../styles/KeahlianSaya.styled";
-
-// IMPOR DARI FILE DATA
 import { Keahlian } from "../utils/Data";
 import { PariasiHilangKeKiri, PariasiHilangKeKanan } from "../utils/Pariasi";
 

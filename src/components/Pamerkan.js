@@ -1,8 +1,9 @@
+// MEMASUKAN MODUL DARI REACT
 import React from "react";
-import { motion } from "framer-motion";
 import Mengetik from "react-typewriter-effect";
-
-// IMPORT DARI FILE MENYELURUH
+// MEMASUKAN MODUL DARI FRAMER MOTION
+import { motion } from "framer-motion";
+// MENGMASUKAN MODUL PENGHIAS YANG SAYA BUAT
 import {
   LapisanWadah,
   MelenturkanWadah,
@@ -11,16 +12,14 @@ import {
   TeksBiru,
   WadahIkon,
 } from "../styles/Menyeluruh.styled";
-
-// IMPORT DARI FILE MEMAMERKAN
+// MENGMASUKAN MODUL DARI FILE
 import {
   PamerkanFoto,
   Partikel,
   WadahPamerkanPartikel,
 } from "../styles/Memamerkan.styled";
 import { SosialTautan } from "../utils/Data";
-
-// IMPORT ASSETS
+// MENGMASUKAN FILE GAMBAR YANG SAYA MILIKI
 import PamerkanGambar from "../assets/1.png";
 import PamerkanPartikel from "../assets/partikel.png";
 import { PariasiHilangKeKanan, PariasiHilangKeKiri } from "../utils/Pariasi";
