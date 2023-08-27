@@ -16,6 +16,13 @@ export const LapisanWadah = bergaya.div`
   padding-left: ${({ kiri }) => kiri};
   padding-right: ${({ kanan }) => kanan};
 
+  @media (max-width: ${({ theme }) => theme.titikhenti.komputer}) {
+    padding-top: ${({ atasKomputerResponsif }) => atasKomputerResponsif};
+    padding-bottom: ${({ bawahKomputerResponsif }) => bawahKomputerResponsif};
+    padding-left: ${({ kiriKomputerResponsif }) => kiriKomputerResponsif};
+    padding-right: ${({ kananKomputerResponsif }) => kananKomputerResponsif};
+  }
+
   @media (max-width: ${({ theme }) => theme.titikhenti.seluler}) {
     padding-top: ${({ atasResponsif }) => atasResponsif};
     padding-bottom: ${({ bawahResponsif }) => bawahResponsif};
@@ -60,6 +67,23 @@ export const Tajuk = bergaya(LapisanWadah)`
         return;
     }
   }};
+
+  @media (max-width: ${({ theme }) => theme.titikhenti.komputer}) {
+    font-size: ${({ ukuran }) => {
+      switch (ukuran) {
+        case "t1":
+          return "3rem";
+        case "t2":
+          return "2.5rem";
+        case "t3":
+          return "1rem";
+        case "t4":
+          return "0.8rem";
+        default:
+          return;
+      }
+    }};
+  }
 
   @media (max-width: ${({ theme }) => theme.titikhenti.seluler}) {
     font-size: ${({ ukuran }) => {

@@ -6,6 +6,13 @@ export const WadahKeahlian = bergaya.div`
     grid-gap: 2rem;
     padding: 0 3%;
 
+    @media (max-width: ${({ theme }) => theme.titikhenti.komputer}) {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1.5rem;
+        padding: 0 1%;
+    }
+
     @media (max-width: ${({ theme }) => theme.titikhenti.seluler}) {
         display: block;
         padding: 0;
